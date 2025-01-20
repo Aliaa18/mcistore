@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/mcistore/static/css/main.1014a6fc.css",
+    "main.js": "/mcistore/static/js/main.c5041bef.js",
+    "static/js/488.3f8c5815.chunk.js": "/mcistore/static/js/488.3f8c5815.chunk.js",
+    "static/media/icon-removebg-preview_enhanced.png": "/mcistore/static/media/icon-removebg-preview_enhanced.857c778497a060836bbf.png",
+    "static/media/fa-solid-900.ttf": "/mcistore/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
+    "static/media/fa-brands-400.ttf": "/mcistore/static/media/fa-brands-400.1815e00441357e01619e.ttf",
+    "static/media/fa-solid-900.woff2": "/mcistore/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
+    "static/media/fa-brands-400.woff2": "/mcistore/static/media/fa-brands-400.c210719e60948b211a12.woff2",
+    "static/media/fa-regular-400.ttf": "/mcistore/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
+    "static/media/slider3.jpg": "/mcistore/static/media/slider3.bf21ed41eff3af24dc8b.jpg",
+    "static/media/slider2.jpg": "/mcistore/static/media/slider2.779b754d3991fa2a57ed.jpg",
+    "static/media/WhatsApp.svg.webp": "/mcistore/static/media/WhatsApp.svg.4aff178ccf553f0cd7a0.webp",
+    "static/media/icon.png": "/mcistore/static/media/icon.dd1ad880a9be21e4260b.png",
+    "static/media/slider4.webp": "/mcistore/static/media/slider4.1a23308de8f712a9425c.webp",
+    "static/media/fa-regular-400.woff2": "/mcistore/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
+    "static/media/slider.webp": "/mcistore/static/media/slider.eb18545ba5ed39b8a3a6.webp",
+    "static/media/slider1.webp": "/mcistore/static/media/slider1.077d0963350a0dc561dc.webp",
+    "static/media/fa-v4compatibility.ttf": "/mcistore/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
+    "static/media/fa-v4compatibility.woff2": "/mcistore/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
+    "static/media/slick.svg": "/mcistore/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/mcistore/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/mcistore/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/mcistore/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/mcistore/index.html",
+    "main.1014a6fc.css.map": "/mcistore/static/css/main.1014a6fc.css.map",
+    "main.c5041bef.js.map": "/mcistore/static/js/main.c5041bef.js.map",
+    "488.3f8c5815.chunk.js.map": "/mcistore/static/js/488.3f8c5815.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1014a6fc.css",
+    "static/js/main.c5041bef.js"
+  ]
+}
