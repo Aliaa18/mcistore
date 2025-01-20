@@ -69,7 +69,7 @@ setNumOfCartItems(data?.cart.products.length )
         </div>
       </Link>
       <div className="d-flex align-items-center justify-content-center heart ">
-         <button onClick={()=>{handlePost(pro_id)}}  className="btn bg-main w-75  text-white mt-1">Add TO Cart</button>
+         <button onClick={()=>{handlePost(pro._id)}}  className="btn bg-main w-75  text-white mt-1">Add TO Cart</button>
          </div>
          <div className='w-75 layer'>
           <img src={img2} alt=""  className='w-100'/>
