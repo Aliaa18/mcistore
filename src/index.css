@@ -1,0 +1,334 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded&display=swap');
+
+:root{
+--rating-color : #ffc908;
+--main-color:#ef4423;
+--font-family:  sans-serif;
+--bg-main:#f3f3f3;
+--color-light: rgba(50, 155, 190, 0.7);
+--shadow: 1px 1px 1px 1px #888888;
+}
+body{
+ font-family: var(--font-family) !important ;
+}
+
+*{
+  text-decoration: none !important;
+}
+ 
+.nav-item.active .nav-link {
+  color: var(--main-color) !important;
+  font-weight: 600; /* Specific background for active item */
+ /* color: white !important;  Text color for contrast */
+  border-radius: 5px; /* Optional rounded corners */
+}
+
+.nav-item .nav-link {
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+a ,a:hover{
+text-decoration: none;
+color: black;
+
+}
+.bg-main{
+background-color: var(--main-color) !important;
+} 
+.cursor-pointer{
+cursor: pointer;
+}
+.text-main{
+color: var(--main-color) !important;
+}
+
+.rating-color{
+color: var(--rating-color) !important;
+}
+.product{
+transition:all 0.6s;
+cursor: pointer;
+}
+.product:hover {
+box-shadow:  var(--shadow);
+border: 1px solid var(--main-color);
+}
+.product .btn , .product .i{
+transition: transform 0.5s , opacity 0.5s;
+transform: translateY(100%);
+opacity: 0;
+}
+
+.product:hover .btn  {
+opacity: 1;
+transform: translateY(0%);
+}
+.product:hover .i  {
+opacity: 1;
+transform: translateY(0%);
+}
+.product .heart :hover  i {
+ color: var(--main-color);
+}
+.bg-main-light{
+background-color:var(--bg-main);
+}
+
+.cat{
+border-radius: 3px;
+border: 1px solid rgb(237, 230, 230);
+}
+
+.main-border{
+border: 0.4px solid var(--main-color) !important;
+}
+
+.text-lighted{
+color: var(--color-light);
+}
+
+.catDet{
+background-color: var(--bg-main);
+border-radius:7px ;
+}
+
+.sub-btn{
+background-color: #0101016b!important;  
+}
+
+.brand{
+border-radius: 5px;
+border: 1px solid  rgb(237, 230, 230);
+}
+.footer{
+background-color: var(--bg-main);
+width: 100%;
+height: 30vh;
+}
+
+
+.user{
+background-color: transparent;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 30px;
+height: 30px;
+border: 0.5px solid  var(--main-color);
+color:  var(--main-color);
+}
+.user-updates h2{
+color:  var(--main-color);
+}
+.user-updates{
+  background-color: var(--bg-main);
+  border-radius:7px ;
+
+}
+.cartWidth{
+font-size: 25px !important;
+}
+.cartIcon{
+position: relative;
+}
+.cartNums{
+position: absolute;
+top: -100%;
+left:50%;
+transform: translate(-50%);
+}
+.wishIcon{
+position: relative;
+}
+.wishNums{
+position: absolute;
+top: -100%;
+left:50%;
+transform: translate(-50%);
+}
+
+
+.text-myColor{
+  color:var(--main-color) !important;
+}
+.text-size{
+  font-size: larger;
+}
+.myback{
+  background-color:rgba(220, 220, 220, 0.271) ;
+}
+.cursorPointer{
+  cursor: pointer;
+}
+#input-search{
+  border: #88888866 , solid , 2px;
+  font-size: small;
+  outline: none;
+  
+}
+.input-change{
+  transition:all 0.6s;
+  }
+.input-change:hover{
+  color: black !important;
+}
+.spliter{
+  height: 0.5px;
+  background-color:#88888866 ;
+  
+}
+.all{
+  color: black !important;
+}
+.quan{
+  width: 25px;
+  height: 20px;
+  border: #888888 solid 1px;
+  border-radius: 50%;
+}
+.loader {
+  border: 10px solid #f3f3f3; /* Light grey */
+  border-top: 10px solid green;
+  border-right: 10px solid green;
+  border-bottom: 10px solid green;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.prodCont{
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.separator{
+  width: 100%;
+  /* height: 0.5px; */
+  border: 0px solid #f3f3f3; /* Light grey */
+  border-top: 0px solid green;
+  border-right: 0px solid green;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.758);
+}
+.desc{
+  background-color:var(--main-color) !important;
+  width: 15%;
+  color: #f3f3f3;
+}
+
+.layer{
+  position: absolute;
+  left: 10%;
+  top: 20%;
+opacity: 0.2;
+}
+.layer-details{
+  position: absolute;
+  left: 25%;
+  top: 25%;
+opacity: 0.2;
+}
+#services .title .main-title{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  letter-spacing: 5px;
+}
+#services .title .main-title .back{
+  text-align: center;
+
+}
+#services .title h2 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+#services .title h3 {
+  font-size: 5rem;
+  font-weight: 800;
+  position: absolute;
+  color: #2222220f;
+  z-index: -1;
+}
+#services .title p  {
+  width: 60%;
+  text-align: center;
+  color: dimgray;
+font-family: 'Titillium Web';
+   font-size: 18px ;
+   
+}
+#services .item{
+  background-color:rgba(220, 220, 220, 0.271) ;
+  border-radius: 10px;
+  
+}
+#services .item h4{
+  color:var(--main-color) !important;
+}
+#services .item ul{
+  color: dimgray;
+  line-height: 35px;
+}
+
+.whatsLayer{
+  cursor: pointer;
+  position: fixed;
+  right: 2%;
+  top: 85%;
+  width: 3.5%;
+  height: 3%;
+}
+.whatsLayer:hover .disc{
+  display: block !important;
+}
+.disc{ 
+  width: 150%;
+  font-size: 10px;
+ text-align: center;
+  color: #f3f3f3;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  margin: 0 auto;
+  overflow: hidden; /* Prevent horizontal scroll */
+  width: 100%; /* Ensure it doesn't stretch beyond the container */
+}
+
+.slick-slide img {
+  display: block;
+  width: 100%; /* Ensure images are responsive */
+   /* Maintain aspect ratio */
+}
+
+.slick-list {
+  overflow: hidden; /* Prevent vertical scroll */
+  margin: 0;
+  padding: 0;
+}
