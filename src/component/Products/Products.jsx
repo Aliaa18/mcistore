@@ -55,6 +55,9 @@ export default function Products({test}) {
  async function handlePost(productId) {
            if(localStorage.getItem('userToken')){
             let {data} = await  addToCart(productId)
+           // console.log("data" , data);
+               console.log(addToCart(productId));
+               
         if (data?.status=="Added successfully"){
      toast.success('added successfully to your cart' , {
         duration: 3000,

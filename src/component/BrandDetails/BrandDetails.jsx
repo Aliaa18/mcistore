@@ -1,14 +1,37 @@
 import axios from 'axios'
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { Helmet } from 'react-helmet'
-import { Link, useParams } from 'react-router-dom'
+import { Link, useParams , useNavigate} from 'react-router-dom'
 import Loadingscreen from '../Loadingscreen/Loadingscreen'
 import img2 from '../../Assets/icon-removebg-preview_enhanced.png'
+import { CartContext } from '../../Context/CartContext'
+import toast from 'react-hot-toast'
 export default function BrandDetails() {
+  let navigate= useNavigate()
     let [brand , setBrand] = useState(null)
     let [loading , setLoading] = useState(true)
+    let {addToCart , setNumOfCartItems} = useContext(CartContext)
     let {slug} = useParams()
     let url ='https://mcishop.vercel.app/api/v1/brands'
+    async function handlePost(productId) {
+      if(localStorage.getItem('userToken')){
+       let {data} = await  addToCart(productId)
+      // console.log("data" , data);
+          console.log(addToCart(productId));
+          
+   if (data?.status=="Added successfully"){
+toast.success('added successfully to your cart' , {
+   duration: 3000,
+})
+
+setNumOfCartItems(data?.cart.products.length )
+}
+       //  postCart(productId)
+     }else{
+       navigate('/login')
+     }
+   
+}
     async function getBrandDetails() {
         const {data} = await axios.get(`${url}/${slug}`)
           console.log(slug);
@@ -46,7 +69,7 @@ export default function BrandDetails() {
         </div>
       </Link>
       <div className="d-flex align-items-center justify-content-center heart ">
-         <button   className="btn bg-main w-75  text-white mt-1">Add TO Cart</button>
+         <button onClick={()=>{handlePost(pro_id)}}  className="btn bg-main w-75  text-white mt-1">Add TO Cart</button>
          </div>
          <div className='w-75 layer'>
           <img src={img2} alt=""  className='w-100'/>

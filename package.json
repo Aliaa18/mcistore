@@ -2,7 +2,7 @@
   "name": "mcishop",
   "version": "0.1.0",
   "private": true,
-  "homepage": "",
+  "homepage": "https://Aliaa18.github.io/mcistore",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
