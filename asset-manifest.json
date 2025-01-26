@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mcistore/static/css/main.a5e82f3b.css",
-    "main.js": "/mcistore/static/js/main.ba297853.js",
+    "main.css": "/mcistore/static/css/main.28d9d751.css",
+    "main.js": "/mcistore/static/js/main.2a693b9c.js",
     "static/js/488.3f8c5815.chunk.js": "/mcistore/static/js/488.3f8c5815.chunk.js",
     "static/media/icon-removebg-preview_enhanced.png": "/mcistore/static/media/icon-removebg-preview_enhanced.857c778497a060836bbf.png",
     "static/media/fa-solid-900.ttf": "/mcistore/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
@@ -12,6 +12,7 @@
     "static/media/slider3.jpg": "/mcistore/static/media/slider3.bf21ed41eff3af24dc8b.jpg",
     "static/media/slider2.jpg": "/mcistore/static/media/slider2.779b754d3991fa2a57ed.jpg",
     "static/media/WhatsApp.svg.webp": "/mcistore/static/media/WhatsApp.svg.4aff178ccf553f0cd7a0.webp",
+    "static/media/icon.jpg": "/mcistore/static/media/icon.dd1ad880a9be21e4260b.jpg",
     "static/media/icon.png": "/mcistore/static/media/icon.dd1ad880a9be21e4260b.png",
     "static/media/slider4.webp": "/mcistore/static/media/slider4.1a23308de8f712a9425c.webp",
     "static/media/fa-regular-400.woff2": "/mcistore/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
@@ -24,12 +25,12 @@
     "static/media/slick.ttf": "/mcistore/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/mcistore/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/mcistore/index.html",
-    "main.a5e82f3b.css.map": "/mcistore/static/css/main.a5e82f3b.css.map",
-    "main.ba297853.js.map": "/mcistore/static/js/main.ba297853.js.map",
+    "main.28d9d751.css.map": "/mcistore/static/css/main.28d9d751.css.map",
+    "main.2a693b9c.js.map": "/mcistore/static/js/main.2a693b9c.js.map",
     "488.3f8c5815.chunk.js.map": "/mcistore/static/js/488.3f8c5815.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5e82f3b.css",
-    "static/js/main.ba297853.js"
+    "static/css/main.28d9d751.css",
+    "static/js/main.2a693b9c.js"
   ]
 }
